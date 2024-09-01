@@ -1,38 +1,181 @@
-.App {
+/* App */
+.App-main {
+  width: 100%;
+  height: 464px;
+}
+.App-main img {
+  width: 100%;
+  height: 464px;
+}
+.App-icon-title span {
+  font-size: 10px;
+}
+.App-icon-title p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.App-icon-title {
+  width: 300px;
+  margin: 30px auto; 
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-icon-box {
+  width: 1240px;
+  height: 150px;
+  margin: 10px auto;
+  font-size: 14px;
+}
+.App-chef {
+  width: 100%;
+  background-color: #eeeaed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* Menu */
+ /* Header */
+.Header {
+  height: 120px;
+  margin: 33px auto 0;
+  width: 1050px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header-nav {
+  list-style-type: none;
+  height: 53px;
+  width: 1200px;
+  padding: 0;
+}
+.Header-item {
+  float: left;
+  margin: 66px 40px 0;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.Header-item:hover {
+  color: red;
+  text-decoration:underline black;
+  text-underline-offset:5px;
+}
+.Header-img {
+  float: left;
+  margin: 0 20px;
+}
+
+/* Home */
+/* IconBox */
+.icon-box .box {
+  list-style-type: none;
+  width: 250px;
+  margin: 0 30px;
+  text-align: center;
+  float: left;
+  font-size: 14px;
+}
+.icon-box img {
+  display: block;
+  width:20px;
+  margin: 0 auto;
+}
+
+/* chefs */
+.chefs-inner {
+  width: 771px;
+  height: 304px;
+  margin: 0 auto;
+}
+.chefs-inner .box {
+  float: left;
+  width: 500px;
+}
+.chefs-inner .box h2{
+  margin-right: 30px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  text-decoration: underline black;
+  
+}
+.chefs-inner .box p {
+    margin-right: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/* About */
+.top {
+  width: 100%;
+  font-size: 14px;
+}
+.top-inner {
+  width:1000px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.top .top-inner img:nth-child(n+2) {
+  width: 250px;
+  height: 250px;
+  margin-top: -3.5px;
+}
+.top .paragraph {
+  width: 210px;
+  height: 210px;
+  padding: 20px;
+  background-color: rgba(0, 128, 0, 0.66);
+  position: absolute;
+  bottom: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.box_all {
+  width:1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+.box_all .box-left {
+  width: 750px;
+}
+.box_all .box-left #box {
+  width: 210px;
+  height: 210px;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  float: left;
+}
+.box_all .box-left .brown {
+  background-color: rgb(73, 64, 64);
+}
+.box_all .box-left .orange {
+  background-color: rgb(211, 113, 48);
+}
+.box_all .box-right {
+  background-color: rgb(228, 195, 146);
+  padding: 20px;
+  height: 460px;
+  width: 210px;
+  float: right;
+  margin-top: -250px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: pink;
+  margin-top: -18px;
+}
+.footer ul {
+  width: 750;
+  padding-top: 4px; 
+}
+.footer li {
+  float: left;
+  font-size: 14px;
+  list-style: none;
+  padding: 6px;
+}
+.footer li:nth-child(2n) {
+  color:orange;
 }
