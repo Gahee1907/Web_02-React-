@@ -8,7 +8,6 @@ import './App.css';
 function App() {
   return (
     <>
-    <Menu/>
       <Routes>
         <Route path='' element={<Home/>}/>
         <Route path="about" element={<About/>}/>

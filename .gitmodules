@@ -1,0 +1,3 @@
+[submodule "web02_about-module"]
+	path = web02_about-module
+	url = git@github.com:Gahee1907/web02_about-module.git

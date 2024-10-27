@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from '../Menu';
 
   function IconTitle() {
       return (
@@ -48,6 +49,7 @@ import React from 'react';
   const Home = () => {
     return (
         <div className='App'>
+          <Menu />
           <div className='App-main'>
             <img src={process.env.PUBLIC_URL + 'img/main.png'}/>
           </div>
